@@ -1,0 +1,22 @@
+.peliculasCard {
+    list-style: none;
+    text-decoration: none;
+    font-size: medium;
+    text-transform: uppercase;
+    text-align: center;
+    color: crimson;
+    background-color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.peliculasImg {
+    border-radius: 10px;
+    background-color: gray;
+    width: 200px;    
+}
+
+@media (max-widht:560px) {
+    .peliculasImg{
+        max-width: 80%;
+    }
+}

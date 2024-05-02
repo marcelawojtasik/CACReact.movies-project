@@ -1,0 +1,15 @@
+.peliculasGrid{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    gap: 80px;
+    padding: 30px;
+    justify-content: center;
+    
+}
+
+@media (max-width: 560px){
+    .peliculasGrid{
+        grid-template-columns: 100%;
+    }
+}
