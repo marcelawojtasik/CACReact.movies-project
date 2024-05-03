@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: local('BebasNeue'), url(../fonts/BebasNeue.otf) format('opentype');
+  }
+  
+
+body{
+    background-color: rgb(21, 25, 25);
+
+}
+
+.detalle{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.seccion{
+    font-family: BebasNeue, Roboto, Sans-serif;
+    color: rgb(157, 45, 45);
+    font-size: xx-large;
+}
+
+.descripcion{
+    font-family: Roboto, sans-serif;
+    color: rgb(179, 184, 189);
+    font-size: large;
+}
+
+.info{
+    font-family: Roboto, sans-serif;
+    color: rgb(179, 184, 189);
+    font-size: medium;
+}

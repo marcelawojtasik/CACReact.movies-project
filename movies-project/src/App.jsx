@@ -9,18 +9,16 @@ export const App = () => {
     <BrowserRouter>
     <header>
       <Link to = "/">
-      <h1 className="title"> Peliculas App.jsx</h1>
+      <h1 className="title"> Peliculas</h1>
       </Link>
     </header>
 
     <Routes>
       <Route path = "/" element = {<LandingPage/>} />      
       <Route path = "/pelicula/:peliculaId" element = {<DetallePeliculas/>} />
-
     </Routes>
 
     </BrowserRouter>
-
   )
 }
 

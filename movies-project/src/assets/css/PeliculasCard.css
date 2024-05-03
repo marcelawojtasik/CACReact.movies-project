@@ -1,12 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: local('BebasNeue'), url(../fonts/BebasNeue.otf) format('opentype');
+  }
+  
+
 .peliculasCard {
     list-style: none;
     text-decoration: none;
-    font-size: medium;
+    font-weight: 100;
+    font-size: 20px;
     text-transform: uppercase;
-    text-align: center;
-    color: crimson;
+    text-align: center;    
     background-color: black;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: red;
+    font-family:'BebasNeue', 'Roboto', Verdana, sans-serif; 
+  
 }
 
 .peliculasImg {
@@ -14,6 +25,8 @@
     background-color: gray;
     width: 200px;    
 }
+
+
 
 @media (max-widht:560px) {
     .peliculasImg{
